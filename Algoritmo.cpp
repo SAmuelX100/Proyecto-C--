@@ -10,6 +10,7 @@ int main()
 
     int i, j, aux;
 
+    // Hace una referencia al tamaño del Array, haciendo más fácil trabajar con este
     int tamanoArrayAux = sizeof(numerosPrueba) / sizeof(int);
 
     cout << " >> Array sin ordenar: " << endl;
