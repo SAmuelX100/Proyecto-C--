@@ -1,4 +1,4 @@
-# Proyecto-C--
+# Proyecto CPP
 
 Algoritmo de Ordenamiento 
 
