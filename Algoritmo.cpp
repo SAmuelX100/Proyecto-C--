@@ -14,7 +14,7 @@ int main()
 
     cout << " >> Array sin ordenar: " << endl;
 
-    for (i = 0; i < tamanoArrayAux; i++)
+    for (i = 0; i < tamanoArrayAux; i++) // Ciclo for para mostrar el array desordenado
     {
         cout << "  >> " << numerosPrueba[i] << endl;
     }
