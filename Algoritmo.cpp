@@ -42,7 +42,7 @@ int main()
 
     for (i = 0; i < tamanoArrayAux; i++)
     {
-        cout << numerosPrueba[i] << endl;
+        cout << "  >> " << numerosPrueba[i] << endl;
 
     }
 
