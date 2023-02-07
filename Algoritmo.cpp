@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-
+    // Declaracion de variables
     int definirSizeArray;
     int i, j, aux;
 
@@ -56,7 +56,7 @@ int main()
 
     cout << endl;
 
-    cout << " >> Imprimiendo Array ordernado: " << endl;
+    cout << " >> Imprimiendo Array ordernado: " << endl; // Simple letrero
 
     //Ciclo For para imprimir el array ya ordenado
     for (i = 0; i < tamanoArrayAux; i++)
