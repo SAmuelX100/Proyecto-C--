@@ -41,11 +41,11 @@ int main()
     cout << endl;
 
     // Algoritmo de ordenamiento
-    for (i = 0; i < tamanoArrayAux; i++)
+    for (i = 0; i < tamanoArrayAux; i++) // Repeticiones 
     {
-        for (j = 0; j < tamanoArrayAux; j++)
+        for (j = 0; j < tamanoArrayAux; j++) // Pasadas 
         {
-            if (numerosPrueba[j] > numerosPrueba[j + 1])
+            if (numerosPrueba[j] > numerosPrueba[j + 1]) // Evaluaciones
             {
                 aux = numerosPrueba[j];
                 numerosPrueba[j] = numerosPrueba[j + 1];
