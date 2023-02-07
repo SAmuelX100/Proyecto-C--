@@ -1,14 +1,28 @@
 #include <iostream>
 #include <conio.h>
+#include <stdlib.h>
 
 using namespace std;
 
 int main()
 {
 
-    int numerosPrueba[] = {505, 2, 75, 88, 2550, 885, 25, 365, 17885, 5, 1, 17, 72, 8556, 6, 225, 368, 7, 100, 4, 3, 9, 27, 1844, 1917, 666};
-
+    int definirSizeArray;
     int i, j, aux;
+
+    cout << " >> Ingrese el tamano del array: ";
+    cin >> definirSizeArray;
+
+    int numerosPrueba[definirSizeArray];
+
+    srand(time(NULL));
+
+    for (int m = 0; m < definirSizeArray; m++){
+        int numeroRandom = rand()%definirSizeArray;
+        numerosPrueba[m] = numeroRandom;
+    }
+
+    cout << endl;
 
     // Hace una referencia al tamaño del Array, haciendo más fácil trabajar con este
     int tamanoArrayAux = sizeof(numerosPrueba) / sizeof(int);
